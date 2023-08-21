@@ -1,0 +1,56 @@
+@import url(reset-pro.css);
+:root{
+    --color-principal:#078075;
+    --color-secundario:#0cb68a;
+    --color-tercero:#fde2b3;
+    --color-blanco:#ffffff;
+}
+body{
+    background: url("../IMG/fondo-generico.svg") 75% 0% / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Quicksand;
+}
+.Section{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 1em;
+}
+.Section-img{
+    max-width: 70em;
+    min-width: 10em;
+    margin-bottom: 3em;
+}
+.Section-h1{
+    font-family: Shadows Into Light Two ;
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: .5em;
+    color: var(--color-secundario);
+}
+.Section-p{
+    font-size: 1.20em;
+}
+.Section-redes{
+    border-radius: .5em;
+    background-color: var(--color-principal);
+    margin-bottom: 1em;
+    padding: .5em 1em;
+    color: var(--color-blanco);
+    font-weight: 500;
+    font-size: 1.3em;
+}
+.Footer{
+    margin-top: 2em;
+    width: 100%;
+    padding: 1.5em 2em;
+    background-color: var(--color-tercero);
+    font-size: .8em;
+}
+.Color-destacado{
+    color:var(--color-principal);
+}
