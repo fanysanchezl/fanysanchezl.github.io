@@ -138,6 +138,7 @@ body {
 .Section-p{
     border-radius: 3em;
     padding: 0em 1em;
+    text-align: center;
     text-shadow: var(--color-tercero) -0.1em -0.1em 0.8em, var(--color-tercero) 0.1em 0.1em 0.8em, var(--color-tercero) -0.1em -0.1em 0.8em, var(--color-tercero) 0.1em 0.1em 0.8em;
 }
 
@@ -193,5 +194,9 @@ body {
     .Header-a:hover{
         transform: scale(1.2);
         color: var(--color-secundario);
-        }
+    }
+
+    .Section-h1{
+        font-size: var(--fuente-manuscrita - 30vw);
+    }
 }
