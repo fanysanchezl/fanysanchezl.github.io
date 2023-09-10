@@ -135,9 +135,6 @@ body {
     text-align: center;
     font-size: 6em;
     margin: 1em;
-    white-space: nowrap;
-    display: block;
-    line-height: normal;
 }
 .Section-p{
     border-radius: 3em;
@@ -201,6 +198,6 @@ body {
     }
 
     .Section-h1{
-        font-size: var(--fuente-manuscrita - 30vw);
+        font-size: 4em;
     }
 }
