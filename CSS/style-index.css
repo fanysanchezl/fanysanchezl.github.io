@@ -201,3 +201,16 @@ body {
         font-size: 2em;
     }
 }
+/* Estilos específicos para tablets */
+@media screen and (max-width: 768px) {
+    .Main {
+        height: auto; 
+    }
+}
+
+/* Estilos específicos para móviles */
+@media screen and (max-width: 480px) {
+    .Section-h1--destacado {
+        font-size: 4em; /* Reducir el tamaño del texto en móviles */
+    }
+}
