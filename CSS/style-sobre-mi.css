@@ -17,7 +17,27 @@ body {
     align-items: center;
     font-family: Quicksand;
 }
+#scrollBtn {
+    display: none;
+    position: fixed;
+    bottom: 3em;
+    right: 1.25em;
+    z-index: 99;
+    font-size: var(--text-size-destacado);
+    width: 2.5em;
+    height: 2.5em;
+    background-color:var(--color-principal);
+    color: var(--color-fondo);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
 
+#scrollBtn:hover {
+    opacity: 1;
+}
 /*Header*/
 .Header {
     width: 100vw;
@@ -114,16 +134,16 @@ body {
     justify-content: center;
     margin: 2em 0em;
 }
-
+.Section-bottom{
+    position: relative;
+    bottom: -20vh;
+}
 .Main{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: calc(100vh - (8em + 3.4em + 2em));
-}
-.Section-top{
-    height:48em;
 }
 .Section-h1{
     font-family: var(--fuente-manuscrita);
@@ -132,9 +152,8 @@ body {
 .Section-h1--destacado{
     color: var(--color-secundario);
     text-align: center;
-    font-size: 6em;
+    transform: scale(6);
     margin: 1em;
-    height: auto;
 }
 .Section-p{
     border-radius: 3em;
