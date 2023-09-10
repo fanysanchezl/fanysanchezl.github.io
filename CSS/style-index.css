@@ -214,6 +214,9 @@ body {
         font-size: 4em;
         line-height: normal;
     }
+    .Section-p{
+        white-space: nowrap;
+    }
     .Section-top{
         height: auto;
     }
