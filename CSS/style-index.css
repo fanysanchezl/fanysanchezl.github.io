@@ -137,6 +137,7 @@ body {
     margin: 1em;
     height: auto;
     white-space: nowrap;
+    display: block;
     line-height: normal;
 }
 .Section-p{
