@@ -134,7 +134,8 @@ body {
     text-align: center;
     font-size: 6em;
     margin: 1em;
-    height: auto;
+    white-space: nowrap;
+    line-height: 120%;
 }
 .Section-p{
     border-radius: 3em;
