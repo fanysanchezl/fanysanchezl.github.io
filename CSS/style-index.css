@@ -214,4 +214,7 @@ body {
         font-size: 4em;
         line-height: normal;
     }
+    .Section-top{
+        height: auto;
+    }
 }
