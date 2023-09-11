@@ -137,7 +137,6 @@ body {
 }
 .Section--sobremi{
     flex-direction: row-reverse;
-    width: 45em;
 }
 .Section-cont{
     margin-left: 10em;
@@ -164,7 +163,7 @@ body {
 }
 .Section-p{
     padding: 0em 1em;
-}
+} 
 .Destacado-p{
     color: var(--color-secundario);
 }

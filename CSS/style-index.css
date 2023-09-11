@@ -33,7 +33,7 @@ body {
     /*Buscador*/
     .Header-buscador {
         position: absolute;
-        right: -32px;
+        left: 32px;
         display: flex;
         align-items: center;
     }
