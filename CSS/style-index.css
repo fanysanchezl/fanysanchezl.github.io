@@ -28,12 +28,13 @@ body {
     align-items: center;
     justify-content: center;
     font-family: Shadows Into Light Two;
+    position: relative;
 }
 
     /*Buscador*/
     .Header-buscador {
         position: absolute;
-        left: 32px;
+        left: 32vw;
         display: flex;
         align-items: center;
     }
