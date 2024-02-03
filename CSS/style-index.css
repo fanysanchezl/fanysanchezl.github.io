@@ -36,7 +36,8 @@ body {
     /*Buscador*/
     .Header-buscador {
         position: absolute;
-        left: 2em;
+        left: 2em !important;
+        -webkit-left: 2em !important;
         display: flex;
         align-items: center;
     }
