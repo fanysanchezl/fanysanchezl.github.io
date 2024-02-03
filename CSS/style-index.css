@@ -213,7 +213,7 @@ body {
         height: auto; 
     }
     .Header-buscador{
-        left: 1%;
+        left: 2%;
     }
 }
 
@@ -230,6 +230,6 @@ body {
         margin: .5em 0em;
     }
     .Header-buscador{
-        left: .5%;
+        left: 2%;
     }
 }
