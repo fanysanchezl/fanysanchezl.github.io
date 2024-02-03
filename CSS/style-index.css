@@ -28,7 +28,7 @@ body {
     align-items: center;
     justify-content: center;
     font-family: Shadows Into Light Two;
-    position: relative;
+
 }
 
     /*Buscador*/
@@ -206,6 +206,9 @@ body {
 @media screen and (max-width: 48rem) {
     .Main {
         height: auto; 
+    }
+    .Header-buscador{
+        left: 10vw;
     }
 }
 
