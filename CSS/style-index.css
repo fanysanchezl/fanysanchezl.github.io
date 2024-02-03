@@ -35,11 +35,27 @@ body {
 
     /*Buscador*/
     .Header-buscador {
-        position: absolute;
+        position: absolute !important;
         left: 2em !important;
         -webkit-left: 2em !important;
         display: flex;
         align-items: center;
+    }
+    @media only screen and (max-device-width: 480px) {
+        .Header-buscador {
+            position: absolute;
+            left: 5%;
+            display: flex;
+            align-items: center;
+        }
+    }
+    @media only screen and (max-device-width: 1012px) {
+        .Header-buscador {
+            position: absolute;
+            left: 5%;
+            display: flex;
+            align-items: center;
+        }
     }
     .Header-lupa {
         transform: scale(0.7);
