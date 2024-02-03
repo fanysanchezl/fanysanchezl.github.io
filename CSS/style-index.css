@@ -127,7 +127,7 @@ body {
     min-height: calc(100vh - (8em + 3.4em + 2em));
 }
 .Section-top{
-    height:48em;
+    height:48%;
 }
 
 .Section-h1{
