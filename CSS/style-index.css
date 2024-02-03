@@ -204,14 +204,17 @@ body {
     }
 }
 /* Tablets */
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 768px) {
     .Main {
         height: auto; 
+    }
+    .Header-buscador{
+        left: 2%;
     }
 }
 
 /* Móviles */
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 480px) {
     .Section-h1--destacado {
         font-size: 4em;
         line-height: normal;
