@@ -203,8 +203,8 @@ body {
     .Section-h1{
         font-size: 2em;
     }
-    .Section-p{
-        padding: 0em .5em;
+    .Section{
+        margin: .5em 0em;
     }
 }
 /* Tablets */
@@ -225,5 +225,8 @@ body {
     }
     .Section-top{
         height: auto;
+    }
+    .Section{
+        margin: .5em 0em;
     }
 }
