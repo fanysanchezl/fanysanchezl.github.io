@@ -16,7 +16,7 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: Quicksand;
-    background-size: cover;
+    background-size: contain;
     overflow: hidden;
 }
 
