@@ -17,6 +17,7 @@ body {
     align-items: center;
     font-family: Quicksand;
     background-size: cover;
+    overflow: hidden;
 }
 
 /*Header*/
