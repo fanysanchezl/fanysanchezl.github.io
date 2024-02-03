@@ -202,6 +202,9 @@ body {
     .Section-h1{
         font-size: 2em;
     }
+    .Section-p{
+        padding: 0em .5em;
+    }
 }
 /* Tablets */
 @media screen and (max-width: 768px) {
