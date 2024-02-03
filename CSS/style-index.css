@@ -214,7 +214,7 @@ body {
         height: auto; 
     }
     .Header-buscador{
-        left: 2%;
+        left: 1%;
     }
 }
 
@@ -229,5 +229,8 @@ body {
     }
     .Section{
         margin: .5em 0em;
+    }
+    .Header-buscador{
+        left: .5%;
     }
 }
