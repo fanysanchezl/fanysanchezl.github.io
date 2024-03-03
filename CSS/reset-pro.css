@@ -150,7 +150,7 @@ td {
 
 /* Evitamos problemas con los SVG */
 svg {
-    width: 100%;
+    /*width: 100%;*/
     display: block;
     fill: currentColor;
 }
