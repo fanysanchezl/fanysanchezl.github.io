@@ -37,7 +37,6 @@ body {
     .Header-buscador {
         position: absolute ;
         left: 32px ;
-        -webkit-left: 32px ;
         display: flex;
         align-items: center;
     }
@@ -162,7 +161,7 @@ body {
 }
 
 /*Responsive*/
-@media screen and (max-width: 63.25rem) {
+@media screen and (max-width: 1012px) {
     /*menu hamburgesa*/
     .Header-btn{
         display: block;
