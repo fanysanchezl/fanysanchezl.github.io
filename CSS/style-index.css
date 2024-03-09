@@ -11,18 +11,19 @@
 }
 
 body {
-    background: url("../IMG/fondo-inicio.svg") 75% 0% / cover no-repeat;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: Quicksand;
-    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 /*Header*/
 .Header {
     width: 100vw;
-    height: 8em;
+    height: 8rem;
     padding: 2%;
     background-color: #ffffff;
     display: flex;
@@ -30,6 +31,7 @@ body {
     justify-content: center;
     font-family: Shadows Into Light Two;
     position: relative;
+    z-index: 100;
 
 }
 
@@ -123,8 +125,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-height: calc(100vh - (8em + 3.4em + 2em));
-    min-height: calc(100vh - (8em + 3.4em + 2em));
+    height: 70vh;
+    background: url("../IMG/fondo-inicio.svg") 75% 0% / cover no-repeat;
 }
 .Section-top{
     height:48%;
@@ -149,11 +151,12 @@ body {
 
 /*Footer*/
 .Footer {
-    margin-top: 2em;
+    margin-top: auto;
     width: 100%;
     padding: 1.5em 2em;
     background-color: var(--color-tercero);
     font-size: .8em;
+    height: 5%;
 }
 
 .Color-destacado {
@@ -202,26 +205,24 @@ body {
     }
 
     .Section-h1{
-        font-size: 2em;
+        font-size: 5em;
     }
     .Section{
         margin: .5em 0em;
     }
 }
 /* Tablets */
-@media screen and (max-width: 48rem) {
-    .Main {
-        height: auto; 
-    }
-
-}
-
-/* Móviles */
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 768px) {
     .Section-h1--destacado {
         font-size: 4em;
         line-height: normal;
     }
+
+
+}
+
+/* Móviles */
+@media screen and (max-width: 480px) {
     .Section-top{
         height: auto;
     }

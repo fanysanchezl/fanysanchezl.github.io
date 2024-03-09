@@ -2,13 +2,18 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Title" content="Fany Sanchez">
     <meta name="description" content="fany sanchez, escritora, fantasía, drama, romance">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <title>Fany Sanchez</title>
     
+    <!-- Etiquetas Open Graph para la imagen compartida en redes sociales -->
+    <meta property="og:image" content="http://fanysanchez/img/miniatura.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="628" />
+
     <!--Fuentes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,10 +23,9 @@
     <link rel="preload" href="CSS/style-index.css" as="style">
     <link rel="stylesheet" type="text/css" href="CSS/style-index.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
+    <link rel="icon" href="img/favicon.ico">
     <!--Scripts-->
     <script defer src="JS/scripts.js"></script>
-    
 </head>
 <body>
     <header class="Header">
@@ -32,11 +36,11 @@
         <nav class="Header-nav">
             <ul class="Header-ul">
                 <li class="Header-li Header-li--active"><a class="Header-a" href="">Inico</a></li>
-                <li class="Header-li"><a class="Header-a" href="Sobre-mi">Sobre mí</a></li>
-                <li class="Header-li"><a class="Header-a" href="Libros">Libros</a></li>
-                <li class="Header-li"><a class="Header-a" href="Servicios">Servicios</a></li>
-                <li class="Header-li"><a class="Header-a" href="Contacto">Contacto</a></li>
-                <li class="Header-li"><a class="Header-a" href="Blog">Blog</a></li>
+                <li class="Header-li"><a class="Header-a" href="sobre-mi.html">Sobre mí</a></li>
+                <li class="Header-li"><a class="Header-a" href="libros.html">Libros</a></li>
+                <li class="Header-li"><a class="Header-a" href="servicios.html">Servicios</a></li>
+                <li class="Header-li"><a class="Header-a" href="contacto.html">Contacto</a></li>
+                <li class="Header-li"><a class="Header-a" href="blog.html">Blog</a></li>
             </ul>
         </nav>
         <div id="btn--menu" class="Header-btn">
@@ -56,9 +60,10 @@
     <footer class="Footer">
         <p class="Footer-credits">
             Diseño: <span class="Color-destacado">Fany Sánchez</span> | Desarrollo: <a class="Color-destacado"
-                href="https://eli-souto-r.github.io/mantenimiento" target="_blank" rel="noopener noreferrer">Elisabet
+                href="https://elisouto.es" target="_blank" rel="noopener noreferrer">Elisabet
                 Souto</a> &copy; 2023 | Todos los derechos reservados
         </p>
     </footer>
+
 </body>
 </html>
