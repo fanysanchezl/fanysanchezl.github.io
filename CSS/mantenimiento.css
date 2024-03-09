@@ -44,6 +44,11 @@ body{
     font-weight: 500;
     font-size: 1.3em;
 }
+.Section-redes:hover{
+    border:solid .5em var(--color-principal);
+    background-color: var(--color-blanco);
+    color: var(--color-principal);
+}
 .Footer{
     margin-top: 2em;
     width: 100%;
