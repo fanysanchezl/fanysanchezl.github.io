@@ -23,8 +23,8 @@
         rel="stylesheet">
 
     <!--Links-->
-    <link rel="preload" href="CSS/style-libros.css" as="style">
-    <link rel="stylesheet" type="text/css" href="CSS/style-libros.css">
+    <link rel="preload" href="CSS/style-contacto.css" as="style">
+    <link rel="stylesheet" type="text/css" href="CSS/style-contacto.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico">
 
@@ -90,63 +90,40 @@
         </div>
     </header>
     <main class="Main">
-        <h1 class="Section-h1 Section-h1--destacado">Mis libros</h1>
-        <!-- inicio-seccion -->
-        <section class="Section Section--libro">
-            <img class="Section-img" src="IMG/la-balada-del-abismo.svg" alt="Portada La balada del abismo">
-            <div class="Section-cont">
-                <h2 class="Section-h2 Section-h2--destacado">La balada del abismo (2ª edición)</h2>
-                <p class="Section-p">Dark Lake es un pueblo marcado por lo oculto desde donde
-                    muere la memoria, cuyas desapariciones misteriosas han
-                    provocado que la cultura del miedo y la precaución dancen
-                    entre sus habitantes. <br><br>
-                    Zoe nunca había sido especialmente asustadiza, aunque
-                    tampoco se mantenía escéptica. Tenía el respeto justo, al
-                    menos a su parecer. Pero con la llegada de Alix Hayes todo
-                    comenzó a tambalearse en su mundo, haciendo que se
-                    cuestionase la verdad detrás de los sucesos extraños que
-                    azotaban su hogar.<br><br>
-                    Dicen que el mayor monstruo que puedes encontrar es el hombre,
-                    aunque quizás solo sea una invención para mantener oculta la
-                    verdad. Que el mundo está lleno de verdaderos monstruos
-                    esperando a devorarte.</p>
+        <div class="Section-cont">
+            <h1 class="Section-h1 Section-h1--destacado">¿Quieres hablar conmigo?</h1>
+            <p class="Section-p">¿Saber más sobre mis libros o contratar
+                mis servicios como diseñadora?</p>
+                <form class="Section-form" action="https://" method="POST">
+                    <div class="form-group">
+                        <label for="name" class="Section-label">Nombre*</label>
+                        <input type="text" id="name" name="name" class="Section-input" required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="Section-label">Email*</label>
+                        <input type="email" id="email" name="email" class="Section-input" required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="Telefono" class="Section-label">Teléfono</label>
+                        <input type="text" id="Telefono" name="Telefono" class="Section-input">
+                    </div>
+                    <div class="form-group--completo">
+                        <label for="mensaje">Mensaje*</label>
+                    <textarea class="Section-textarea" name="mensaje" id="" cols="30" rows="10" required=""></textarea>
+                    </div>
+                    <div class="form-group--checkbox">
+                    <input class="Section-checkbox" type="checkbox" id="checkbox1" name="checkbox1" required="" checked="checked">
+                    <label for="checkbox1"> Acepto el tratamiento de mis datos con meros fines de la comunicación expresa en este mensaje*</label>
+                    </div>
+                    <div class="form-group--checkbox">
+                    <input class="Section-checkbox " type="checkbox" id="checkbox2" name="checkbox2" >
+                    <label for="checkbox2"> Acepto el tratamiento de mis datos con fines de comunicación sobre publicidad, promociones y regalos</label>
+                    </div>
+                    <div class="Cont-btns"><input class="btns" type="submit" value="Enviar">
+                    </div>
+                </form>
+        </div>
 
-            </div>
-            <div class="Cont-btns">
-                <img class="Section-icon" src="IMG/cestacomprasmislibros.svg" alt="icono cesta">
-                <a class="btns"
-                    href="https://www.amazon.es/balada-del-abismo-Daniela-Lafuente-ebook/dp/B09K5JWW9Z/?_encoding=UTF8&pd_rd_w=GYcNz&content-id=amzn1.sym.180a9a36-01e7-4f71-b53a-239d259091fd&pf_rd_p=180a9a36-01e7-4f71-b53a-239d259091fd&pf_rd_r=259-1137234-6189200&pd_rd_wg=SaTur&pd_rd_r=47bc5a00-e60c-4c95-8290-44ff573a6d50&ref_=aufs_ap_sc_dsk"
-                    target="_blank" rel="noopener noreferrer">COMPRAR</a>
-            </div>
-        </section>
-
-        <!-- inicio-seccion -->
-        <section class="Section Section--libro">
-            <img class="Section-img" src="IMG/erizame-el-alma.svg" alt="Portada Erízame el alma">
-            <div class="Section-cont">
-                <h2 class="Section-h2 Section-h2--destacado">Erízame el alma</h2>
-                <p class="Section-p">Dark Lake es un pueblo marcado por lo oculto desde donde
-                    muere la memoria, cuyas desapariciones misteriosas han
-                    provocado que la cultura del miedo y la precaución dancen
-                    entre sus habitantes. <br><br>
-                    Zoe nunca había sido especialmente asustadiza, aunque
-                    tampoco se mantenía escéptica. Tenía el respeto justo, al
-                    menos a su parecer. Pero con la llegada de Alix Hayes todo
-                    comenzó a tambalearse en su mundo, haciendo que se
-                    cuestionase la verdad detrás de los sucesos extraños que
-                    azotaban su hogar.<br><br>
-                    Dicen que el mayor monstruo que puedes encontrar es el hombre,
-                    aunque quizás solo sea una invención para mantener oculta la
-                    verdad. Que el mundo está lleno de verdaderos monstruos
-                    esperando a devorarte.</p>
-                <div class="Cont-btns">
-                    <img class="Section-icon" src="IMG/cestacomprasmislibros.svg" alt="icono cesta">
-                    <a class="btns"
-                        href="https://www.amazon.es/Er%C3%ADzame-el-alma-Daniela-Lafuente-ebook/dp/B08WJD68GY/?_encoding=UTF8&pd_rd_w=SzXzV&content-id=amzn1.sym.180a9a36-01e7-4f71-b53a-239d259091fd&pf_rd_p=180a9a36-01e7-4f71-b53a-239d259091fd&pf_rd_r=259-1137234-6189200&pd_rd_wg=WQcN6&pd_rd_r=12279dd1-9914-4837-b45b-8725746fa8db&ref_=aufs_ap_sc_dsk"
-                        target="_blank" rel="noopener noreferrer">COMPRAR</a>
-                </div>
-            </div>
-        </section>
     </main>
     <button onclick="scrollToTop()" id="scrollBtn" title="Volver arriba">&uarr;</button>
     <footer class="Footer">
