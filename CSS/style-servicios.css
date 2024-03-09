@@ -143,24 +143,13 @@ body {
     justify-content: center;
     align-items: center; 
     width: 90vw;   
-    height: 60vh;
-}
-
-.Section--sobremi{
-    max-width: 80em;
-    flex-direction: row-reverse;
-    align-items: center;
-    height: auto;
-}
-.Section-cont{
-    flex-direction: column;
-    height: auto;
+    min-height: 60vh;
 }
 
 .Section-h1,.Section-h2{
     font-family: var(--fuente-manuscrita);
     font-size: 2.3em;
-    
+    line-height: normal;
 }
 .Section-h1--destacado, .Section-h2--destacado{
     color: var(--color-secundario);
@@ -168,22 +157,36 @@ body {
     max-height: none;
     max-width: none;
 }
-.Section-h2--destacado{
-    float: right;
-}
 .Section-p{
     padding: 0em 1em;
 } 
 .Destacado-p{
     color: var(--color-secundario);
 }
-.Section-img{
-    max-width: 25em;
-    min-width: 15em;
-    height: auto;
-    margin-left: 3em;
+
+/* Btns */
+.btns{
+    border-radius: .5em;
+    background-color: var(--color-principal);
+    padding: .5em 1em;
+    color: var(--color-blanco);
+    font-weight: 500;
+    font-size: 1.3em;
+}
+.btns:hover{
+    outline: solid .1em var(--color-secundario);
+    background-color: var(--color-blanco);
+    color: var(--color-secundario);
 }
 
+/*Servicios*/
+.Cont-btns{
+    margin-top: 2em;
+}
+.Section-p{
+    width: 28em;
+    text-align: center;
+}
 /*Footer*/
 .Footer {
     margin-top: auto;
@@ -238,14 +241,9 @@ body {
         transform: scale(1.2);
         color: var(--color-secundario);
     }
-
-    .Section{
-        margin: .5em 0em;
-    }
-    /*Sobre mi*/
-
     
 }
+
 /* Tablets */
 @media screen and (max-width: 768px) {
     .Section-h1--destacado, .Section-h2--destacado {
@@ -262,18 +260,8 @@ body {
         height: auto;
     }
 
-    /*Sobre mi*/
-    .Section--sobremi{
-        width: 90vw;
-        flex-direction:column;
-        align-items: center;
-    }
-    .Section-cont{
-        width: 90vw;
-        flex-direction: column;
-    }
-    .Section-img{
-        margin-left: 0;
+    .Section-p{
+        width: 90%;
     }
 }
 
@@ -282,8 +270,9 @@ body {
     .Section-top{
         height: auto;
     }
-    .Section{
-        margin: .5em 0em;
+
+    .Section-h2, .Section-h1{
+        text-align: center;
     }
 
 }
